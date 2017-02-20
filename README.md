@@ -3,6 +3,7 @@ Backup Tableau server to AWS S3 storage, for disaster recovery purpose
 ##Introduction
 This script lets you backup a Tableau server instance to AWS S3 storage. The highlights are:
  - Written in Windows PowerShell for adaptability with other system modules
+ - Uses the native 'Write-S3Object' module in AWS-provided Windows OS, so there is no need to install any 3rd party tool
  - Does not require any downtime on Tableau server for taking backup
  - Can be automated to run daily by adding to 'Task scheduler'
 
