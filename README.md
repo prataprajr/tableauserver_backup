@@ -10,6 +10,7 @@ This script lets you backup a Tableau server instance to AWS S3 storage. The hig
 ##Pre-requisites
  - Remote desktop access to node running Tableau server application
  - Access to Tableau install directory
+ - Configure powershell to run user scripts. Reference: https://technet.microsoft.com/en-us/library/ee176961.aspx
       
 ##List of Scripts
  - tableauserverbackup.ps1
