@@ -20,6 +20,6 @@ This script lets you backup a Tableau server instance to AWS S3 storage. The hig
  - Right click on script and click edit(using powershell). You can run the script here.
 
 ##Automation
-Once manual testing of script is successful, you can configure it to run daily via the Widnows task sheduler
+Once manual testing of script is successful, you can configure it to run daily via the Windows task sheduler
  - Program Path: 'powershell.exe'
  - Argument '-file <"path to Tableau backup powershell script">
